@@ -1,5 +1,5 @@
 package Aufgabenblatt2;
 
-public interface IKalender {
+public interface ICalender {
     public boolean tagGültig(int tag, int monat);
 }

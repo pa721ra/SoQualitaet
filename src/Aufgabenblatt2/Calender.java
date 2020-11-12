@@ -1,6 +1,6 @@
 package Aufgabenblatt2;
 
-public class Kalender implements IKalender{
+public class Calender implements ICalender {
     public boolean tagGültig(int tag, int monat) {
          if ((tag == 30 || tag==31) && monat == 2) {
              return false;
